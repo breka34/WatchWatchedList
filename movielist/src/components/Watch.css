@@ -1,0 +1,68 @@
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+}
+.movie-page {
+    margin: 5px
+}
+.movie-card {
+    /* position: relative; */
+    border-radius: 5px;
+    border: 0;
+}
+.header h1 {
+    text-align: center;
+}
+/* no movies */
+.container .no-movies {
+    text-align: center;
+    margin-top: 25px;
+    color: rgba(255, 0, 0, 0.986);
+}
+
+.movie-card  {
+    position: relative;
+}
+main {
+    position: absolute;
+    left: 21%;
+    bottom: 20px;
+
+    
+}
+main .ctrl-btn {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+main .ctrl-btn:first-child {
+    margin-right: 10px;
+   
+}
+.eye, .x {
+    width: 20px;
+    height: 20px;
+}
+.x {
+    color: red;
+}
+
+/* input-wrapper */
+.input-wrapper input {
+    width: 250px;
+    height: 25px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.158);
+   padding: 10px;
+}
+.input-wrapper input:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(0, 183, 255);
+    
+   
+}
+.input-wrapper ::placeholder {
+    text-align: center;
+}
