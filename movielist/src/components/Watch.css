@@ -1,10 +1,20 @@
 .movie-grid {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(5,1fr);
     grid-gap: 30px;
+    margin-left: 130px;
+}
+.movie-card img {
+    height: 300px;
 }
 .movie-page {
-    margin: 5px
+    margin: 5px;
+}
+.container {
+    /* width: 100%; */
+}
+.movie-page h4 {
+   margin-top: 200px;
 }
 .movie-card {
     /* position: relative; */
@@ -26,7 +36,7 @@
 }
 main {
     position: absolute;
-    left: 21%;
+    left: 75px;
     bottom: 20px;
 
     
@@ -50,12 +60,17 @@ main .ctrl-btn:first-child {
 
 /* input-wrapper */
 .input-wrapper input {
-    width: 250px;
-    height: 25px;
+    width: 270px;
+    height: 27px;
     border-radius: 15px;
     border: none;
     background-color: rgba(128, 128, 128, 0.158);
    padding: 10px;
+}
+.input-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .input-wrapper input:focus {
     outline: none;

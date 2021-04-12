@@ -10,7 +10,8 @@ const WatchList = () => {
         <div className="movie-page">
            <div className="container">
                <div className="header">
-                   <h1>My Watchlist</h1>
+                   <h1 >My Watchlist</h1>
+                   <div className="title-watchlist"></div>
                </div>
               
               {watchlist.length > 0 ? (

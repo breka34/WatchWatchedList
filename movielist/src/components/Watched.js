@@ -8,7 +8,8 @@ const Watched = () => {
         <div className="movie-page">
            <div className="container">
                <div className="header">
-                   <h1>Watched movies </h1>
+                   <h1 >Watched movies </h1>
+                   <div className="title-watched"></div>
                </div>
               
               {watched.length > 0 ? (

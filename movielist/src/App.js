@@ -6,6 +6,8 @@ import  WatchList  from './components/WatchList';
 import  Watched  from './components/Watched';
 import  Add  from './components/Add';
 import { GlobalProvider} from './context/GlobalState'
+import './components/Responsive.css';
+
 function App() {
   return (
     <GlobalProvider>
@@ -14,7 +16,7 @@ function App() {
         <Header />
 
         <Switch>
-          <Route exact path="/">
+          <Route path="/watchlist">
             <WatchList />
           </Route>
 
@@ -22,7 +24,7 @@ function App() {
             <Watched />
           </Route>
 
-          <Route path="/add">
+          <Route  exact path="/">
             <Add />
           </Route>
         </Switch>

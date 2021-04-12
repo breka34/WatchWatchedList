@@ -1,0 +1,64 @@
+@media only screen and (max-width: 600px) {
+  .link ul {
+    margin-left: -323x;
+  }
+  .input-wrapper input  {
+    width: 60%;
+  }
+  /* add results */
+
+.results {
+  display: flex;
+  flex-direction: column;
+}
+.movie-grid {
+  display: flex;
+  flex-direction: column;
+}
+.title-watched, .title-watchlist {
+  width: 45%;
+}
+.result-card {
+  height: 270px;
+  width: 130px;
+}
+}
+@media only screen and (max-width: 768px) {
+  /* .results {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+  } */
+  .add-content {
+/* width: 100%; */
+  }
+  .result-card {
+    display: flex;
+    flex-direction: row;
+  }
+  .result-card li {
+    width: 150px;
+  }
+  .link ul {
+    margin-left: -38px;
+  }
+  
+}
+@media only screen and (max-width: 320px) {
+  .movie-card img {
+    width: 120px;
+    height: 150px;
+  }
+  .poster-wrapper img {
+    height: 170px;
+  }
+  .info {
+    width: 130px;
+  }
+  .add-content {
+    margin-left: -50px;
+  }
+  .result-card {
+    height: 200px;
+  }
+}
